@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/allRecipeFragment"
-        android:name="com.example.recipecreatorapp.AllRecipeFragment"
+        android:name="com.example.recipecreatorapp.ui.fragments.AllRecipeFragment"
         android:label="fragment_all_recipe"
         tools:layout="@layout/fragment_all_recipe" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/addAndUpdateRecipeFragment"
-        android:name="com.example.recipecreatorapp.AddRecipeFragment"
+        android:name="com.example.recipecreatorapp.ui.fragments.AddRecipeFragment"
         android:label="fragment_add_update_recipe"
         tools:layout="@layout/fragment_add_update_recipe" >
         <argument

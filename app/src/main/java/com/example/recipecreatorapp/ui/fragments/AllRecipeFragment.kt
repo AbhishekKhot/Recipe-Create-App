@@ -1,4 +1,4 @@
-package com.example.recipecreatorapp
+package com.example.recipecreatorapp.ui.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.recipecreatorapp.R
 import com.example.recipecreatorapp.adapter.RecipeAdapter
 import com.example.recipecreatorapp.databinding.FragmentAllRecipeBinding
 import com.example.recipecreatorapp.model.Recipe

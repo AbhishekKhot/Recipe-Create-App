@@ -1,4 +1,4 @@
-package com.example.recipecreatorapp
+package com.example.recipecreatorapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

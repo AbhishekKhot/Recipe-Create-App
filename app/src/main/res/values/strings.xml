@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Recipe App</string>
     <string name="button_text">UPDATE RECIPE</string>
+    <string name="enter_recipe_title">Enter recipe title</string>
+    <string name="enter_recipe_procedure">Enter recipe procedure</string>
+    <string name="enter_recipe_category">Enter recipe category</string>
+    <string name="add_recipe">ADD RECIPE</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="recipe">Recipe</string>
+    <string name="recipe_category">Recipe Category</string>
 </resources>

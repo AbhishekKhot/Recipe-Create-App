@@ -1,4 +1,4 @@
-package com.example.recipecreatorapp
+package com.example.recipecreatorapp.ui.fragments
 
 import android.app.Activity
 import android.content.Intent
@@ -118,5 +118,4 @@ class AddRecipeFragment : Fragment() {
             }
         }
     }
-
 }
