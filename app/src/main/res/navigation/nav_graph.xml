@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/addAndUpdateRecipeFragment"
-        android:name="com.example.recipecreatorapp.AddAndUpdateRecipeFragment"
+        android:name="com.example.recipecreatorapp.AddRecipeFragment"
         android:label="fragment_add_update_recipe"
         tools:layout="@layout/fragment_add_update_recipe" >
         <argument

@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.recipecreatorapp.adapter.RecipeAdapter
 import com.example.recipecreatorapp.databinding.FragmentAllRecipeBinding
+import com.example.recipecreatorapp.model.Recipe
 import com.google.firebase.firestore.FirebaseFirestore
 
 class AllRecipeFragment : Fragment() {
@@ -36,7 +38,9 @@ class AllRecipeFragment : Fragment() {
             this.adapter=recipeAdapter
         }
 
-        fireStore.collection("RecipesData").get().addOnCompleteListener {
+
+        fireStore.collection("RecipesData")
+            .get().addOnCompleteListener {
             for(snapShot in it.result){
                 val recipe= Recipe(
                     snapShot.getString("id"),
@@ -49,8 +53,5 @@ class AllRecipeFragment : Fragment() {
             }
             recipeAdapter.notifyDataSetChanged()
         }
-
-
-
     }
 }

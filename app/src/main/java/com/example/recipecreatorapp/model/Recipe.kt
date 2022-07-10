@@ -1,4 +1,4 @@
-package com.example.recipecreatorapp
+package com.example.recipecreatorapp.model
 
 data class Recipe(
     val id:String?=null,
